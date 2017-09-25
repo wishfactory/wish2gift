@@ -1,0 +1,110 @@
+@import url(https://fonts.googleapis.com/css?family=Sniglet|Raleway:900);
+body{
+background-image: -ms-linear-gradient(top, #FFFFFF 0%, #D3D8E8 100%);
+/* Mozilla Firefox */
+background-image: -moz-linear-gradient(top, #FFFFFF 0%, #D3D8E8 100%);
+/* Opera */
+background-image: -o-linear-gradient(top, #FFFFFF 0%, #D3D8E8 100%);
+/* Webkit (Safari/Chrome 10) */
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFFFFF), color-stop(1, #D3D8E8));
+/* Webkit (Chrome 11+) */
+background-image: -webkit-linear-gradient(top, #FFFFFF 0%, #D3D8E8 100%);
+/* W3C Markup, IE10 Release Preview */
+background-image: linear-gradient(to bottom, #FFFFFF 0%, #D3D8E8 100%);
+background-repeat: no-repeat;
+background-attachment: fixed;
+font-family: 'Sniglet', cursive;
+}
+
+.navbar-default{
+	background-color:#f05f40;
+	border-bottom:none;
+}
+
+.navbar-form  .input-sm{
+	border-radius:0;
+}
+
+
+.signup-btn {
+  background-image: -webkit-linear-gradient(top, #f05f40, #f05f40);
+  background-image: -moz-linear-gradient(top, #f05f40,#f05f40);
+  background-image: -ms-linear-gradient(top, #f05f40,#f05f40);
+  background-image: -o-linear-gradient(top, #f05f40,#f05f40);
+  background-image: linear-gradient(to bottom, #f05f40,#f05f40);
+  -webkit-border-radius: 4;
+  -moz-border-radius: 4;
+  text-shadow: 0px 1px 0px #898a88;
+  -webkit-box-shadow: 0px 0px 0px #a4e388;
+  -moz-box-shadow: 0px 0px 0px #a4e388;
+  box-shadow: 0px 0px 0px #a4e388;
+  font-family: 'Sniglet', cursive;
+  color: #0e385f;
+	font-weight: bold;
+  font-size: 27px;
+  padding: 60px 20px 10px 20px;
+  border: solid #f05f40  1px;
+  text-decoration: none;
+}
+
+.navbar-default .navbar-brand{
+		color:#0e385f;
+		font-size:45px;
+		font-weight:bold;
+	}
+	a{
+		text-align: center;
+	}
+.form .form-control { margin-bottom: 10px; }
+@media (min-width:768px) {
+	#wrap{
+		margin-bottom:89px;
+	}
+
+
+
+	#home{
+		margin-top:35px;
+	}
+	#home .slogan{
+		color: #0e385f;
+		line-height: 29px;
+		font-weight:bold;
+		font-size: 10px;
+	}
+
+	.navbar-brand{
+		padding:15px 15px;
+	}
+}
+
+.con1{
+	background-color: white;
+	padding-top: 30px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.con2{
+	background-color: white ;
+}
+.con{
+	background-color: #f05f40;
+}
+.slogan{
+	margin-left: 30px;
+}
+.con3{
+	margin: 1px 1px 1px 20px;
+	letter-spacing: 2px;
+}
+.con4{
+	margin-bottom: 10px;
+}
+.con5{
+	margin-top: 10px;
+}
+
+.con6{
+	background-color: white
+margin: 10px 10px 10px 10px;
+}

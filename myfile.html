@@ -1,0 +1,730 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wish2Gift</title>
+    <link href="myfiles.css" rel="stylesheet">
+    <script type="text/javascript" src="myindex.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+	</head>
+  <body>
+    <div id="wrap">
+      <div class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+          <div class="navbar-header" style="text-align:center">
+            <a class="navbar-brand" style="font-family:'Sniglet',cursive;">WISH 2 GIFT</a>
+          </div>
+        </div>
+      </div>
+      <div class="container" id="home" style="font-family:'Sniglet',cursive;">
+        <div class="row">
+          <div class="col-md-7 con">
+            <div class="con1">
+              <h3 class="slogan">
+                <legend><h2 style="font-weight:bold">What's your Wish ?</h2></legend><br/>
+              </h3>
+            </div><!--	<center><img src="gift.jpg" class="img-responsive" /></center> -->
+            <div class="con2" id="div0">
+              <form>
+                <div class="con3">
+                  <input type="radio" name="optradio" onclick="show1();">
+                  <label class="input-inline con3 con5">
+                    <h5  style="font-weight:bold">
+                      <legend>Sports</legend>
+                    </h5>
+                  </label><br/>
+                </div>
+                <div class="con3">
+                  <input type="radio" name="optradio" onclick="show2();">
+                  <label class="input-inline con3">
+                    <h5  style="font-weight:bold">
+                      <legend>Computer and accessories</legend>
+                    </h5>
+                  </label><br/>
+                </div>
+                <div class="con3">
+                  <input type="radio" name="optradio" onclick="show3();">
+                  <label class="input-inline con3">
+                    <h5  style="font-weight:bold">
+                      <legend>Electronics</legend>
+                    </h5>
+                  </label><br/>
+                </div>
+                <div class="con3">
+                  <input type="radio" name="optradio" onclick="show4();">
+                  <label class="input-inline con3">
+                    <h5  style="font-weight:bold">
+                      <legend>Home Accessories</legend>
+                    </h5>
+                  </label><br/>
+                </div>
+                <div class="con3">
+                  <input type="radio" name="optradio" onclick="show5();">
+                  <label class="input-inline con3">
+                    <h5  style="font-weight:bold">
+                      <legend>Fashion</legend>
+                    </h5>
+                  </label><br/>
+                </div>
+                <div class="con3">
+                  <input type="radio" name="optradio" onclick="show6();">
+                  <label class="input-inline con3">
+                    <h5  style="font-weight:bold">
+                      <legend>Toys and Games</legend>
+                    </h5>
+                  </label><br/>
+                </div>
+                <div class="con3">
+                  <input type="radio" name="optradio" onclick="show7();">
+                  <label class="input-inline con3">
+                    <h5  style="font-weight:bold">
+                      <legend>Musical Instruments</legend>
+                    </h5>
+                  </label><br/>
+                </div>
+                <div class="con3">
+                  <input type="radio" name="optradio" onclick="show8();">
+                  <label class="input-inline con3">
+                    <h5  style="font-weight:bold">
+                      <legend>Books</legend>
+                    </h5>
+                  </label><br/>
+                </div>
+              </form>
+            </div>
+
+
+
+
+
+
+            <div class="con2" id="div1" style="display:none">
+              <form>
+                <div class="con3">
+                  <input type="radio" name="optradio">
+                  <label class="input-inline con3 con5">
+                    <h5  style="font-weight:bold">
+                      <legend>Outdoor</legend>
+                    </h5>
+                  </label><br/>
+                </div>
+                <div class="con3">
+                  <input type="radio" name="optradio">
+                  <label class="input-inline con3">
+                    <h5  style="font-weight:bold">
+                      <legend>Indoor</legend>
+                    </h5>
+                  </label><br/>
+                </div>
+                <div class="con3">
+                  <input type="radio" name="optradio">
+                  <label class="input-inline con3">
+                    <h5  style="font-weight:bold">
+                      <legend>Video Games</legend>
+                    </h5>
+                  </label><br/>
+                </div>
+                <div class="con3">
+                  <input type="radio" name="optradio">
+                  <label class="input-inline con3">
+                    <h5  style="font-weight:bold">
+                      <legend>Sports Equipments</legend>
+                    </h5>
+                  </label><br/>
+                </div>
+                <div class="con3">
+                  <input type="radio" name="optradio">
+                  <label class="input-inline con3">
+                    <h5  style="font-weight:bold">
+                      <legend>Sports books</legend>
+                    </h5>
+                  </label><br/>
+                </div>
+                <div class="con3">
+                  <input type="radio" name="optradio">
+                  <label class="input-inline con3">
+                    <h5  style="font-weight:bold">
+                      <legend>Toys for kids</legend>
+                    </h5>
+                  </label><br/>
+                </div>
+                <div class="con3">
+                  <input type="radio" name="optradio">
+                  <label class="input-inline con3">
+                    <h5  style="font-weight:bold">
+                      <legend>Art and Crafts</legend>
+                    </h5>
+                  </label><br/>
+                </div>
+                <div class="con3">
+                  <input type="radio" name="optradio">
+                  <label class="input-inline con3">
+                    <h5  style="font-weight:bold">
+                      <legend>Puzzles</legend>
+                    </h5>
+                  </label><br/>
+                </div>
+              </form>
+            </div>
+
+
+
+
+            <div class="con2" id="div2" style="display:none">
+              <form>
+                <div class="con3">
+                  <input type="radio" name="optradio">
+                  <label class="input-inline con3 con5">
+                    <h5  style="font-weight:bold">
+                      <legend>PC</legend>
+                    </h5>
+                  </label><br/>
+                </div>
+                <div class="con3">
+                  <input type="radio" name="optradio">
+                  <label class="input-inline con3">
+                    <h5  style="font-weight:bold">
+                      <legend>Laptops</legend>
+                    </h5>
+                  </label><br/>
+                </div>
+                <div class="con3">
+                  <input type="radio" name="optradio">
+                  <label class="input-inline con3">
+                    <h5  style="font-weight:bold">
+                      <legend>Mouse and Keyboards</legend>
+                    </h5>
+                  </label><br/>
+                </div>
+                <div class="con3">
+                  <input type="radio" name="optradio">
+                  <label class="input-inline con3">
+                    <h5  style="font-weight:bold">
+                      <legend>Playstation 4 Headsets</legend>
+                    </h5>
+                  </label><br/>
+                </div>
+                <div class="con3">
+                  <input type="radio" name="optradio">
+                  <label class="input-inline con3">
+                    <h5  style="font-weight:bold">
+                      <legend>Mac</legend>
+                    </h5>
+                  </label><br/>
+                </div>
+                <div class="con3">
+                  <input type="radio" name="optradio">
+                  <label class="input-inline con3">
+                    <h5  style="font-weight:bold">
+                      <legend>Audio devices</legend>
+                    </h5>
+                  </label><br/>
+                </div>
+                <div class="con3">
+                  <input type="radio" name="optradio">
+                  <label class="input-inline con3">
+                    <h5  style="font-weight:bold">
+                      <legend>Game consoles</legend>
+                    </h5>
+                  </label><br/>
+                </div>
+                <div class="con3">
+                  <input type="radio" name="optradio">
+                  <label class="input-inline con3">
+                    <h5  style="font-weight:bold">
+                      <legend>Projectors and Printers</legend>
+                    </h5>
+                  </label><br/>
+                </div>
+              </form>
+            </div>
+
+
+
+            <div class="con2" id="div3" style="display:none">
+              <form>
+                <div class="con3">
+                  <input type="radio" name="optradio">
+                  <label class="input-inline con3 con5">
+                    <h5  style="font-weight:bold">
+                      <legend>TV</legend>
+                    </h5>
+                  </label><br/>
+                </div>
+                <div class="con3">
+                  <input type="radio" name="optradio">
+                  <label class="input-inline con3">
+                    <h5  style="font-weight:bold">
+                      <legend>SmartPhones</legend>
+                    </h5>
+                  </label><br/>
+                </div>
+                <div class="con3">
+                  <input type="radio" name="optradio">
+                  <label class="input-inline con3">
+                    <h5  style="font-weight:bold">
+                      <legend>Smart Home</legend>
+                    </h5>
+                  </label><br/>
+                </div>
+                <div class="con3">
+                  <input type="radio" name="optradio">
+                  <label class="input-inline con3">
+                    <h5  style="font-weight:bold">
+                      <legend>camera Accessories</legend>
+                    </h5>
+                  </label><br/>
+                </div>
+                <div class="con3">
+                  <input type="radio" name="optradio">
+                  <label class="input-inline con3">
+                    <h5  style="font-weight:bold">
+                      <legend>Buisness Tools</legend>
+                    </h5>
+                  </label><br/>
+                </div>
+                <div class="con3">
+                  <input type="radio" name="optradio">
+                  <label class="input-inline con3">
+                    <h5  style="font-weight:bold">
+                      <legend>Portable Accessories</legend>
+                    </h5>
+                  </label><br/>
+                </div>
+                <div class="con3">
+                  <input type="radio" name="optradio">
+                  <label class="input-inline con3">
+                    <h5  style="font-weight:bold">
+                      <legend>Softwares</legend>
+                    </h5>
+                  </label><br/>
+                </div>
+                <div class="con3">
+                  <input type="radio" name="optradio">
+                  <label class="input-inline con3">
+                    <h5  style="font-weight:bold">
+                      <legend>Speakers and Headphones</legend>
+                    </h5>
+                  </label><br/>
+                </div>
+              </form>
+            </div>
+
+
+
+
+            <div class="con2" id="div4" style="display:none">
+              <form>
+                <div class="con3">
+                  <input type="radio" name="optradio" onclick="show();">
+                  <label class="input-inline con3 con5">
+                    <h5  style="font-weight:bold">
+                      <legend>Table Frames</legend>
+                    </h5>
+                  </label><br/>
+                </div>
+                <div class="con3">
+                  <input type="radio" name="optradio">
+                  <label class="input-inline con3">
+                    <h5  style="font-weight:bold">
+                      <legend>Area Rugs</legend>
+                    </h5>
+                  </label><br/>
+                </div>
+                <div class="con3">
+                  <input type="radio" name="optradio">
+                  <label class="input-inline con3">
+                    <h5  style="font-weight:bold">
+                      <legend>Wall Sculptures</legend>
+                    </h5>
+                  </label><br/>
+                </div>
+                <div class="con3">
+                  <input type="radio" name="optradio">
+                  <label class="input-inline con3">
+                    <h5  style="font-weight:bold">
+                      <legend>Beds and Sofas</legend>
+                    </h5>
+                  </label><br/>
+                </div>
+                <div class="con3">
+                  <input type="radio" name="optradio">
+                  <label class="input-inline con3">
+                    <h5  style="font-weight:bold">
+                      <legend>Kid's Room Decorators</legend>
+                    </h5>
+                  </label><br/>
+                </div>
+                <div class="con3">
+                  <input type="radio" name="optradio">
+                  <label class="input-inline con3">
+                    <h5  style="font-weight:bold">
+                      <legend>Furniture</legend>
+                    </h5>
+                  </label><br/>
+                </div>
+                <div class="con3">
+                  <input type="radio" name="optradio">
+                  <label class="input-inline con3">
+                    <h5  style="font-weight:bold">
+                      <legend>Bath towels</legend>
+                    </h5>
+                  </label><br/>
+                </div>
+                <div class="con3">
+                  <input type="radio" name="optradio">
+                  <label class="input-inline con3">
+                    <h5  style="font-weight:bold">
+                      <legend>Wall clocks</legend>
+                    </h5>
+                  </label><br/>
+                </div>
+              </form>
+            </div>
+
+
+
+
+            <div class="con2" id="div5" style="display:none">
+              <form>
+                <div class="con3">
+                  <input type="radio" name="optradio">
+                  <label class="input-inline con3 con5">
+                    <h5  style="font-weight:bold">
+                      <legend>Jewellery</legend>
+                    </h5>
+                  </label><br/>
+                </div>
+                <div class="con3">
+                  <input type="radio" name="optradio">
+                  <label class="input-inline con3">
+                    <h5  style="font-weight:bold">
+                      <legend>Bags and Watches</legend>
+                    </h5>
+                  </label><br/>
+                </div>
+                <div class="con3">
+                  <input type="radio" name="optradio">
+                  <label class="input-inline con3">
+                    <h5  style="font-weight:bold">
+                      <legend>Shoes</legend>
+                    </h5>
+                  </label><br/>
+                </div>
+                <div class="con3">
+                  <input type="radio" name="optradio">
+                  <label class="input-inline con3">
+                    <h5  style="font-weight:bold">
+                      <legend>Wrist Bands and Bracelets</legend>
+                    </h5>
+                  </label><br/>
+                </div>
+                <div class="con3">
+                  <input type="radio" name="optradio">
+                  <label class="input-inline con3">
+                    <h5  style="font-weight:bold">
+                      <legend>Women Accessories</legend>
+                    </h5>
+                  </label><br/>
+                </div>
+                <div class="con3">
+                  <input type="radio" name="optradio">
+                  <label class="input-inline con3">
+                    <h5  style="font-weight:bold">
+                      <legend>Men Accessories</legend>
+                    </h5>
+                  </label><br/>
+                </div>
+                <div class="con3">
+                  <input type="radio" name="optradio">
+                  <label class="input-inline con3">
+                    <h5  style="font-weight:bold">
+                      <legend>Style and Clothing</legend>
+                    </h5>
+                  </label><br/>
+                </div>
+                <div class="con3">
+                  <input type="radio" name="optradio">
+                  <label class="input-inline con3">
+                    <h5  style="font-weight:bold">
+                      <legend>Textile and Costume</legend>
+                    </h5>
+                  </label><br/>
+                </div>
+              </form>
+            </div>
+
+
+
+
+            <div class="con2" id="div6" style="display:none">
+              <form>
+                <div class="con3">
+                  <input type="radio" name="optradio">
+                  <label class="input-inline con3 con5">
+                    <h5  style="font-weight:bold">
+                      <legend>Video Games</legend>
+                    </h5>
+                  </label><br/>
+                </div>
+                <div class="con3">
+                  <input type="radio" name="optradio">
+                  <label class="input-inline con3">
+                    <h5  style="font-weight:bold">
+                      <legend>Puppet Toys</legend>
+                    </h5>
+                  </label><br/>
+                </div>
+                <div class="con3">
+                  <input type="radio" name="optradio">
+                  <label class="input-inline con3">
+                    <h5  style="font-weight:bold">
+                      <legend>Dolls and Accessories</legend>
+                    </h5>
+                  </label><br/>
+                </div>
+                <div class="con3">
+                  <input type="radio" name="optradio">
+                  <label class="input-inline con3">
+                    <h5  style="font-weight:bold">
+                      <legend>Grown-up Toys</legend>
+                    </h5>
+                  </label><br/>
+                </div>
+                <div class="con3">
+                  <input type="radio" name="optradio">
+                  <label class="input-inline con3">
+                    <h5  style="font-weight:bold">
+                      <legend>Ride-on toys</legend>
+                    </h5>
+                  </label><br/>
+                </div>
+                <div class="con3">
+                  <input type="radio" name="optradio">
+                  <label class="input-inline con3">
+                    <h5  style="font-weight:bold">
+                      <legend>Puzzle games</legend>
+                    </h5>
+                  </label><br/>
+                </div>
+                <div class="con3">
+                  <input type="radio" name="optradio">
+                  <label class="input-inline con3">
+                    <h5  style="font-weight:bold">
+                      <legend>Board Games</legend>
+                    </h5>
+                  </label><br/>
+                </div>
+                <div class="con3">
+                  <input type="radio" name="optradio">
+                  <label class="input-inline con3">
+                    <h5  style="font-weight:bold">
+                      <legend>Art and Craft</legend>
+                    </h5>
+                  </label><br/>
+                </div>
+              </form>
+            </div>
+
+
+
+
+            <div class="con2" id="div7" style="display:none">
+              <form>
+                <div class="con3">
+                  <input type="radio" name="optradio">
+                  <label class="input-inline con3 con5">
+                    <h5  style="font-weight:bold">
+                      <legend>Musical Instruments</legend>
+                    </h5>
+                  </label><br/>
+                </div>
+                <div class="con3">
+                  <input type="radio" name="optradio">
+                  <label class="input-inline con3">
+                    <h5  style="font-weight:bold">
+                      <legend>Amplifiers and effects</legend>
+                    </h5>
+                  </label><br/>
+                </div>
+                <div class="con3">
+                  <input type="radio" name="optradio">
+                  <label class="input-inline con3">
+                    <h5  style="font-weight:bold">
+                      <legend>Sound Effects</legend>
+                    </h5>
+                  </label><br/>
+                </div>
+                <div class="con3">
+                  <input type="radio" name="optradio">
+                  <label class="input-inline con3">
+                    <h5  style="font-weight:bold">
+                      <legend>Band and Orchestra</legend>
+                    </h5>
+                  </label><br/>
+                </div>
+                <div class="con3">
+                  <input type="radio" name="optradio">
+                  <label class="input-inline con3">
+                    <h5  style="font-weight:bold">
+                      <legend>Studio recording Equipment</legend>
+                    </h5>
+                  </label><br/>
+                </div>
+                <div class="con3">
+                  <input type="radio" name="optradio">
+                  <label class="input-inline con3">
+                    <h5  style="font-weight:bold">
+                      <legend>Keyboards and MIDI</legend>
+                    </h5>
+                  </label><br/>
+                </div>
+                <div class="con3">
+                  <input type="radio" name="optradio">
+                  <label class="input-inline con3">
+                    <h5  style="font-weight:bold">
+                      <legend>Microphones</legend>
+                    </h5>
+                  </label><br/>
+                </div>
+                <div class="con3">
+                  <input type="radio" name="optradio">
+                  <label class="input-inline con3">
+                    <h5  style="font-weight:bold">
+                      <legend>Piano</legend>
+                    </h5>
+                  </label><br/>
+                </div>
+              </form>
+            </div>
+
+
+
+
+            <div class="con2" id="div8" style="display:none">
+              <form>
+                <div class="con3">
+                  <input type="radio" name="optradio">
+                  <label class="input-inline con3 con5">
+                    <h5  style="font-weight:bold">
+                      <legend>AutoBiographies</legend>
+                    </h5>
+                  </label><br/>
+                </div>
+                <div class="con3">
+                  <input type="radio" name="optradio">
+                  <label class="input-inline con3">
+                    <h5  style="font-weight:bold">
+                      <legend>Novels</legend>
+                    </h5>
+                  </label><br/>
+                </div>
+                <div class="con3">
+                  <input type="radio" name="optradio">
+                  <label class="input-inline con3">
+                    <h5  style="font-weight:bold">
+                      <legend>Educational books</legend>
+                    </h5>
+                  </label><br/>
+                </div>
+                <div class="con3">
+                  <input type="radio" name="optradio">
+                  <label class="input-inline con3">
+                    <h5  style="font-weight:bold">
+                      <legend>Short Story books</legend>
+                    </h5>
+                  </label><br/>
+                </div>
+                <div class="con3">
+                  <input type="radio" name="optradio">
+                  <label class="input-inline con3">
+                    <h5  style="font-weight:bold">
+                      <legend>Motivational Books</legend>
+                    </h5>
+                  </label><br/>
+                </div>
+                <div class="con3">
+                  <input type="radio" name="optradio">
+                  <label class="input-inline con3">
+                    <h5  style="font-weight:bold">
+                      <legend>Historical Books</legend>
+                    </h5>
+                  </label><br/>
+                </div>
+                <div class="con3">
+                  <input type="radio" name="optradio">
+                  <label class="input-inline con3">
+                    <h5  style="font-weight:bold">
+                      <legend>Horror Books</legend>
+                    </h5>
+                  </label><br/>
+                </div>
+                <div class="con3">
+                  <input type="radio" name="optradio">
+                  <label class="input-inline con3">
+                    <h5  style="font-weight:bold">
+                      <legend>Comics</legend>
+                    </h5>
+                  </label><br/>
+                </div>
+              </form>
+            </div>
+
+            <div class="con6">
+              <h4 style="font-weight:bold">
+                <legend><label class="con3"><strong>Anything Else?</strong></label></legend>
+              </h4>
+              <form>
+                <input class="form-control input-lg" name="yourTags" placeholder="Add comma separated tags here" type="text"/>
+              </form>
+            </div>
+          </div>
+          <div class="col-md-5">
+            <h3 style="font-weight:bold;font-family:'Sniglet',cursive;" class="slogan">
+              <legend><center>Your Wish is our command<center></legend></h3><br/>
+                <form action="#" method="post" class="form" role="form">
+                  <div class="row">
+                    <div class="col-xs-6 col-md-6">
+                      <input class="form-control input-lg" name="firstname" placeholder="First Name*" type="text" autofocus required/>
+                    </div>
+                    <div class="col-xs-6 col-md-6">
+                      <input class="form-control input-lg" name="lastname" placeholder="Last Name" type="text"/>
+                    </div>
+                  </div>
+                  <input class="form-control input-lg" name="yourage" placeholder="Age(in Years)*" type="number" max="100" required/>
+                  <select class="form-control" required>
+                    <option hidden>Gender*</option>
+                    <option>Male</option>
+                    <option>Female</option>
+                    <option>others</option>
+                  </select>
+                  <input class="form-control input-lg" name="Address" placeholder="Address 1*" type="text" required/>
+                  <input class="form-control input-lg" name="Address" placeholder="Address 2" type="text"/>
+                  <select class="form-control">
+                    <option hidden>Marital Status*</option>
+                    <option>Single</option>
+                    <option>Married</option>
+                  </select>
+                  <select class="form-control input-lg">
+                    <option hidden>Working Status*</option>
+                    <option>Student</option>
+                    <option>Professional</option>
+                  </select>
+                  <label class="custom-file"><br/>
+                    <input type="file" class="custom-file-input form-control input-lg">
+                    <span class="custom-file-control"></span>
+                  </label><br/>
+                  <button class="btn btn-danger btn-lg btn-block signup-btn" type="submit" style="margin-top:10px;">
+                    Make a Wish Now!!</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.slim.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-validator/0.4.5/js/bootstrapvalidator.min.js"></script>
+  </body>
+</html>
