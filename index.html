@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+    <!-- Bootstrap core CSS -->
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+        <link href="index.css" rel="stylesheet">
+        <script type="text/javascript" src="index.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <span class="h3 w2gtext main-color"><strong>Wish2Gift</strong></span>
+                </div>
+            </div>
+            <hr></hr>
+            <div class="row">
+                <div class="col-sm-4 col-sm-offset-4 text-center">
+                    <span class="h2">Make A Wish!</span>
+                </div>
+            </div>
+            <br></br>
+            <form>
+            <div class="row form-group">
+                <div class="col-sm-4 col-sm-offset-4 well">
+                    <label for="name" id="Name">Name</label>
+                    <input type="text" id="name" class="form-control">
+                    <label for="age" id="Age">Age</label>
+                    <input type="text" id="age" class="form-control">
+                    <label for="locality" id="Locality">Locality</label>
+                    <input type="text" id="locality" class="form-control">
+                    <label for="gender" id="Gender">Gender</label>
+                    <select class="form-control" id="gender">
+                       <option>Male</option>
+                       <option>Female</option>
+                       <option>Other</option>
+                    </select>
+                    <label for="marital-status">Marital Status</label>
+                    <select class="form-control" id="marital-status">
+                       <option>Single</option>
+                       <option>Married</option>
+                    </select>
+                    <label for="working-status">Working Status</label>
+                    <select class="form-control" id="marital-status">
+                       <option>Student</option>
+                       <option>Professional</option>
+                       <option>Government</option>
+                    </select>
+                    <label for="tags">Categories</label>
+                    <div class="radio">
+                        <label><input type="radio" name="cat" id="Sports">Sports</label>
+                    </div>
+                    <div class="radio">
+                        <label><input type="radio"  name="cat" id="Electronics" >Electronics</label>
+                    </div>
+                    <div class="radio">
+                        <label><input type="radio"  name="cat" id="Books">Books</label>
+                    </div>
+                    <div class="radio">
+                        <label><input type="radio" name="cat"  id="Furniture">Furniture</label>
+                    </div>
+                    <div class="radio">
+                        <label><input type="radio" name="cat" id="Apparel">Apparel</label>
+                    </div>
+                     <label for="tags" id="sct" class="hide">Sub-categories</label>
+                    <div class="radio hide" id="subcat1">
+                        <label id="subcatlabel1"><input type="radio">Sports</label>
+                    </div>
+                    <div class="radio hide" id="subcat2">
+                        <label id="subcatlabel2"><input type="radio">Electronics</label>
+                    </div>
+                    <div class="radio hide" id="subcat3">
+                        <label id="subcatlabel3"><input type="radio" >Books</label>
+                    </div>
+                    <div class="radio hide" id="subcat4">
+                        <label id="subcatlabel4"><input type="radio" >Furniture</label>
+                    </div>
+                    <div class="radio hide" id="subcat5">
+                        <label id="subcatlabel5"><input type="radio" >Apparel</label>
+                    </div>
+                    <div>
+                         <label for ="file-upload">Upload File</label>
+                         <input type="file" id="file-upload">
+                         <small id="HelpInline" class="text-muted">Give hint of the product to us.</small>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Submit</button>
+                </div>
+            </div>
+            
+            
+            </form>
+        </div>
+        
+
+    
+
+    </body>
+
+</html>

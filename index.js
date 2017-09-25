@@ -1,0 +1,71 @@
+/*global $ */
+$("#Sports").click(function () {
+    "use strict";
+    $("#sct").show();
+    $("#subcat1").show();
+    $("#subcat2").show();
+    $("#subcat3").show();
+    $("#subcat4").show();
+    $("#subcat5").show();
+    $("#subcatlabel1").text("Cricket");
+    $("#subcatlabel2").text("Badminton");
+    $("#subcatlabel3").text("Lawn tennis");
+    $("#subcatlabel4").text("Squash");
+    $("#subcatlabel5").text("Table tennis");
+});
+$("#Electronics").click(function () {
+    "use strict";
+    $("#sct").show();
+    $("#subcat1").show();
+    $("#subcat2").show();
+    $("#subcat3").show();
+    $("#subcat4").show();
+    $("#subcat5").show();
+    $("#subcatlabel1").text("Home Aplliances");
+    $("#subcatlabel2").text("Computer and laptops");
+    $("#subcatlabel3").text("Computer Accessories");
+    $("#subcatlabel4").text("Headphones and earphones");
+    $("#subcatlabel5").text("Speakers");
+});
+$("#Books").click(function () {
+    "use strict";
+    $("#sct").show();
+    $("#subcat1").show();
+    $("#subcat2").show();
+    $("#subcat3").show();
+    $("#subcat4").show();
+    $("#subcat5").show();
+    $("#subcatlabel1").text("Brida");
+    $("#subcatlabel2").text("11 Minutes");
+    $("#subcatlabel3").text("The Ultimate Journey");
+    $("#subcatlabel4").text("The monk who sold his ferrari");
+    $("#subcatlabel5").text("Gandhi");
+});
+$("Furniture").click(function () {
+    "use strict";
+    $("#sct").show();
+    $("#subcat1").show();
+    $("#subcat2").show();
+    $("#subcat3").show();
+    $("#subcat4").show();
+    $("#subcat5").show();
+    $("#subcatlabel1").text("Sofa");
+    $("#subcatlabel2").text("Table");
+    $("#subcatlabel3").text("Dining");
+    $("#subcatlabel4").text("Cupboard");
+    $("#subcatlabel5").text("Drawers");
+});
+$("#Apparel").click(function () {
+    "use strict";
+    $("#sct").show();
+    $("#subcat1").show();
+    $("#subcat2").show();
+    $("#subcat3").show();
+    $("#subcat4").show();
+    $("#subcat5").show();
+    $("#subcatlabel1").text("Women");
+    $("#subcatlabel2").text("Men");
+    $("#subcatlabel3").text("Kids");
+    $("#subcatlabel4").text("Formals");
+    $("#subcatlabel5").text("Informals");
+});
