@@ -17,20 +17,14 @@ border-bottom:1px solid #313030;
 }
 body{
 	background-image: url("back.jpg");
-	font-size: 1.2em;
 }
 label{
-	font-size: 1.5em;
+	font-size: 1.6em;
 	font-weight: bold;;
 	color: #f05f40;
 }
 #submit{
 	font-size: 2em;
-}
-#mannKiBaat {
-	background-color: white;
-    background-repeat: no-repeat;
-    background-position: center;
 }
 .w3-color-primary{
 	background-color:  #f05f40;
