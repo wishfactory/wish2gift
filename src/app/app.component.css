@@ -1,0 +1,35 @@
+
+.main-color{
+    color:#f05f40;
+}
+.well{
+    background-color: rgba(255,255,255,0.4);
+    border-color: #f05f40;
+    border-width: medium;
+}
+.w2gtext{
+    vertical-align: middle;
+    display: inline-block;
+}
+.background{
+    background-color: #f05f40;
+}
+#Name:after{
+    content:"*" ;
+    color:red
+}
+#Age:after{
+    content:"*" ;
+    color:red
+}
+#Locality:after{
+    content:"*" ;
+    color:red
+}
+#Gender:after{
+    content:"*" ;
+    color:red
+}
+.hide{
+    display:none;
+}
