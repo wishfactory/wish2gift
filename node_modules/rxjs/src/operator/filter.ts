@@ -10,7 +10,7 @@ export function filter<T, S extends T>(this: Observable<T>,
 export function filter<T>(this: Observable<T>,
                           predicate: (value: T, index: number) => boolean,
                           thisArg?: any): Observable<T>;
-/* tslint:enable:max-line-length */
+/* tslint:disable:max-line-length */
 
 /**
  * Filter items emitted by the source Observable by only emitting those that
@@ -79,6 +79,7 @@ class FilterSubscriber<T> extends Subscriber<T> {
               private predicate: (value: T, index: number) => boolean,
               private thisArg: any) {
     super(destination);
+    this.predicate = predicate;
   }
 
   // the try catch block below is left specifically for

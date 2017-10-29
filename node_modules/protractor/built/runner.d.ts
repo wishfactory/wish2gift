@@ -2,7 +2,6 @@
 /// <reference types="q" />
 import { EventEmitter } from 'events';
 import * as q from 'q';
-import { promise as wdpromise } from 'selenium-webdriver';
 import { ProtractorBrowser } from './browser';
 import { Config } from './config';
 import { DriverProvider } from './driverProviders';
@@ -13,9 +12,6 @@ export declare class Runner extends EventEmitter {
     driverprovider_: DriverProvider;
     o: any;
     plugins_: Plugins;
-    restartPromise: q.Promise<any>;
-    frameworkUsesAfterEach: boolean;
-    ready_?: wdpromise.Promise<void>;
     constructor(config: Config);
     /**
      * Registrar for testPreparers - executed right before tests run.
@@ -26,20 +22,10 @@ export declare class Runner extends EventEmitter {
     /**
      * Executor of testPreparer
      * @public
-     * @param {string[]=} An optional list of command line arguments the framework will accept.
      * @return {q.Promise} A promise that will resolve when the test preparers
      *     are finished.
      */
-    runTestPreparer(extraFlags?: string[]): q.Promise<any>;
-    /**
-     * Called after each test finishes.
-     *
-     * Responsible for `restartBrowserBetweenTests`
-     *
-     * @public
-     * @return {q.Promise} A promise that will resolve when the work here is done
-     */
-    afterEach(): q.Promise<void>;
+    runTestPreparer(): q.Promise<any>;
     /**
      * Grab driver provider based on type
      * @private
@@ -80,20 +66,19 @@ export declare class Runner extends EventEmitter {
      * This is used to set up the initial protractor instances and any
      * future ones.
      *
-     * @param {Plugin} plugins The plugin functions
-     * @param {ProtractorBrowser=} parentBrowser The browser which spawned this one
+     * @param {?Plugin} The plugin functions
      *
      * @return {Protractor} a protractor instance.
      * @public
      */
-    createBrowser(plugins: any, parentBrowser?: ProtractorBrowser): any;
+    createBrowser(plugins: any): any;
     /**
      * Final cleanup on exiting the runner.
      *
      * @return {q.Promise} A promise which resolves on finish.
      * @private
      */
-    shutdown_(): q.Promise<void>;
+    shutdown_(): q.Promise<any>;
     /**
      * The primary workhorse interface. Kicks off the test running process.
      *
