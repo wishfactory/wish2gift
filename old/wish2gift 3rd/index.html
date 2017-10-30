@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>The final page</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" type="image/x-icon" href="pp.jpg" />
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<!-- my ext css file -->
+	<link rel="stylesheet" type="text/css" href="index.css">
+
+	<!-- my ext js file -->
+	<Script src="index.js"></Script>
+
+		<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+		<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+		<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	    <!-- fonts ke liye -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+	<link href="'https://fonts.googleapis.com/css?family=Sofia'" rel="stylesheet">
+
+
+
+</head>
+<body>
+	<div id="cover" class="w3-display-middle w3-center ">
+		<p id="mainhead" class="w3-tangerine w3-wide"><i>Wish 2 Gift</i></p>
+			<div class="col-xs-5"></div>
+			<div class="line-separator col-xs-2"></div>
+			<div class=" col-xs-5"></div>
+		<p id="subhead" class=" w3-margin w3-padding w3-sofia"><i>Where the HAPPINESS is wrapped and sent to your homes</i></p>
+	  <button class="w3-btn w3-white w3-border w3-border-red w3-round-xxlarge w3-large" data-toggle="modal" data-target="#myModal">Make a Wish</button>
+	</div>
+
+
+
+	<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog modal-lg ">
+
+
+
+
+
+
+
+
+
+
+    <!-- Modal content-->
+    <div class="modal-content w3-color-primary" >
+<div id="form " class="w3-row w3-container w3-animate-bottom" >
+<div class="w3-col l2">&nbsp;</div>
+	<div id="sbase" class="w3-card-4 w3-color-primary w3-padding w3-margin">
+		<div id="tbase" class="w3-card w3-white w3-margin">
+			<form class="form-horizontal" id="mannKiBaat" action="./index.html" method="post" align="center">
+			<h1 class="w3-container w3-black w3-padding"><i>Who is going to receive your love</i></h1>
+			<div class="w3-container w3-padding w3-margin w3-row" id="formBody">
+			<div class="w3-col l12 m12 s12  w3-container w3-padding w3-margin" align="left">
+
+  <div class="form-group">
+    <label class="control-label col-md-3" for="name">Name:</label>
+    <div class="input-group col-md-9">
+     <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+      <input type="text" class="form-control" id="name" placeholder="Enter Name" required>
+    </div>
+  </div>
+
+    <div class="form-group">
+    <label class="control-label col-md-3" for="age">Age:</label>
+    <div class="input-group col-md-9">
+     <span class="input-group-addon"><i class="glyphicon glyphicon-flag"></i></span>
+      <input type="number" class="form-control" min="0" max="100" id="age" placeholder="Enter Age" required>
+    </div>
+  </div>
+
+      <div class="form-group">
+    <label class="control-label col-md-3" for="gender">Gender:</label>
+    <div class="input-group col-md-9">
+      <input type="radio" class="w3-radio" name="Gender" value="male" checked>&nbsp;male&nbsp;&nbsp;
+	  <input type="radio" class="w3-radio" name="Gender" value="female">&nbsp;female&nbsp;&nbsp;
+	  <input type="radio" class="w3-radio" name="Gender" value="others">&nbsp;others&nbsp;&nbsp;<br><br>
+    </div>
+  </div>
+
+        <div class="form-group">
+    <label class="control-label col-md-3" for="Living Area">Residence:</label>
+    <div class="input-group col-md-9">
+		<input type="radio" class="w3-radio" name="Living Area" value="Urbun" checked>&nbsp;Urbun&nbsp;&nbsp;
+		<input type="radio" class="w3-radio" name="Living Area" value="Semi Rural">&nbsp;Semi-Urbun&nbsp;&nbsp;
+		<input type="radio" class="w3-radio" name="Living Area" value="Rural">&nbsp;Rural&nbsp;&nbsp;
+    </div><br>
+    <div class="input-group col-sm-offset-3">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
+	    <input type="text" class="form-control" id="addr" placeholder="short address">
+    </div>
+  </div>
+
+
+	       <div  class="row" >
+
+		       <div class="w3-col l4 m12 s12 w3-container" align="left">
+			       <label>Working Status</label><br>
+			       <input type="radio" class="w3-radio" name="Working status" value="Student" checked>&nbsp;Student<br>
+			       <input type="radio" class="w3-radio" name="Working status" value="Working">&nbsp;Working<br>
+			       <input type="radio" class="w3-radio" name="Working status" value="Non-working">&nbsp;Non-working<br>
+		       </div>	
+
+		       <div class="w3-col l4 m12 s12 w3-container" align="left">
+			       <label>Marital Status</label><br>
+			       <input type="radio" class="w3-radio" name="Marital Status" value="Single" checked>&nbsp;Single<br>
+			       <input type="radio" class="w3-radio" name="Marital Status" value="Married">&nbsp;Married<br>
+		       </div>
+
+		       <div class="w3-col l4 m12 s12 w3-container" align="left">
+			       <label>Kids</label><br>
+			       <input type="radio" class="w3-radio" name="Kids" value="No" checked>&nbsp;No<br>
+			       <input type="radio" class="w3-radio" name="Kids" value="Yes">&nbsp;Yes<br>
+		       </div>
+
+	       </div>
+
+			</div>
+
+
+ <div class="form-group">
+    <label class="control-label col-md-3" for="name">Categories:</label>
+    <div class="input-group col-md-9">
+<span class="w3-btn w3-white w3-border w3-border-red w3-round-large" onclick="showlist('Electronics');"><i class="glyphicon glyphicon-plus-sign"></i>&nbsp;Electronics</span>
+<span class="w3-btn w3-white w3-border w3-border-red w3-round-large" onclick="showlist('Lifestyle');"><i class="glyphicon glyphicon-plus-sign"></i>&nbsp;Lifestyle</span>
+<span class="w3-btn w3-white w3-border w3-border-red w3-round-large" onclick="showlist('Sports');"><i class="glyphicon glyphicon-plus-sign"></i>&nbsp;Sports</span>
+<span class="w3-btn w3-white w3-border w3-border-red w3-round-large" onclick="showlist('accesories');"><i class="glyphicon glyphicon-plus-sign"></i>&nbsp;Accessories</span>
+<span class="w3-btn w3-white w3-border w3-border-red w3-round-large" onclick="showlist('HomeAppliances');"><i class="glyphicon glyphicon-plus-sign"></i>&nbsp;Home Appliances</span>
+    </div>
+  </div>
+
+<div id="Electronics" class="w3-card-4 w3-padding w3-margin" align="left" hidden>
+<label><i>Sub-Categories : </i> Electronics</label><br>
+	<input type="checkbox" class="w3-radio" name="Electronics" value="a" >&nbsp;phone<br>
+	<input type="checkbox" class="w3-radio" name="Electronics" value="b">&nbsp;smartwatch<br>
+	<input type="checkbox" class="w3-radio" name="Electronics" value="c">&nbsp;laptops<br>
+	<input type="checkbox" class="w3-radio" name="Electronics" value="d">&nbsp;pendrives<br>
+	<input type="checkbox" class="w3-radio" name="Electronics" value="e">&nbsp;walkman<br>
+</div>
+
+<div id="Lifestyle" class="w3-card-4 w3-padding w3-margin" align="left" hidden>
+<label><i>Sub-Categories : </i>Lifestyle</label><br>
+	<input type="checkbox" class="w3-radio" name="Lifestyle" value="a" >&nbsp;trausers<br>
+	<input type="checkbox" class="w3-radio" name="Lifestyle" value="b">&nbsp;shorts<br>
+	<input type="checkbox" class="w3-radio" name="Lifestyle" value="c">&nbsp;jackets<br>
+	<input type="checkbox" class="w3-radio" name="Lifestyle" value="d">&nbsp;shirts<br>
+	<input type="checkbox" class="w3-radio" name="Lifestyle" value="e">&nbsp;tie<br>
+</div>
+<div id="Sports" class="w3-card-4 w3-padding w3-margin" align="left" hidden>
+<label><i>Sub-Categories : </i>Sports</label><br>
+	<input type="checkbox" class="w3-radio" name="Sports" value="a" >&nbsp;bat<br>
+	<input type="checkbox" class="w3-radio" name="Sports" value="b">&nbsp;raquet<br>
+	<input type="checkbox" class="w3-radio" name="Sports" value="c">&nbsp;basketball<br>
+	<input type="checkbox" class="w3-radio" name="Sports" value="d">&nbsp;chess<br>
+	<input type="checkbox" class="w3-radio" name="Sports" value="e">&nbsp;football<br>
+</div>
+<div id="accesories" class="w3-card-4 w3-padding w3-margin" align="left" hidden>
+<label><i>Sub-Categories : </i>Accessories</label><br>
+	<input type="checkbox" class="w3-radio" name="accessories" value="a" >&nbsp;earings<br>
+	<input type="checkbox" class="w3-radio" name="accessories" value="b">&nbsp;cufflets<br>
+	<input type="checkbox" class="w3-radio" name="accessories" value="c">&nbsp;belt<br>
+	<input type="checkbox" class="w3-radio" name="accessories" value="d">&nbsp;wallet<br>
+	<input type="checkbox" class="w3-radio" name="accessories" value="e">&nbsp;ebow<br>
+</div>
+<div id="HomeAppliances" class="w3-card-4 w3-padding w3-margin" align="left"  hidden>
+<label><i>Sub-Categories : </i>Home Appliances</label><br>
+	<input type="checkbox" class="w3-radio" name="Home Appliances" value="a" >&nbsp;tv<br>
+	<input type="checkbox" class="w3-radio" name="Home Appliances" value="b">&nbsp;fridge<br>
+	<input type="checkbox" class="w3-radio" name="Home Appliances" value="c">&nbsp;AC<br>
+	<input type="checkbox" class="w3-radio" name="Home Appliances" value="d">&nbsp;washing machine<br>
+	<input type="checkbox" class="w3-radio" name="Home Appliances" value="e">&nbsp;electric kettle<br>
+</div>
+
+		<div class="w3-col l12 m12 s12 w3-container w3-padding w3-margin" id="extra details">
+			<div class="row" align="center">
+          <div class="col-md-12">
+            <input class="w3-input" type="file" name="upload" style="width: 50%;">
+          </div>
+        </div>	
+			</div><br>
+			<div class="w3-container">
+			<select class="w3-select w3-white" required >
+			    <option>Select Usage</option>
+				<option>Personal Use</option>
+				<option>Gifting Purpose</option>
+			</select><br>
+			<label>Did we forgot something?</label>
+			<textarea id = "myTextArea"
+                  rows = "4" class="w3-padding" placeholder="anything else you want to describe(seperate with spaces)" style="width: 100%"></textarea>
+			<br><br><i><input class="w3-btn w3-block w3-black" id="submit" type="submit" name="submit"></i><br>
+			</div>
+			</div>
+			</form> 
+		</div>
+	</div>
+
+<div class="w3-col l2">&nbsp;</div>
+</div>
+      </div>
+    </div>
+
+
+  </div>
+</div>
+
+
+
+</body>
+</html>
