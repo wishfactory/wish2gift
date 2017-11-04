@@ -9,6 +9,7 @@ import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { FormComponent } from './form/form.component';
 import { SignupComponent } from './signup/signup.component' ;
+import { HomeComponent } from './home/home.component';
 
 
 
@@ -23,7 +24,8 @@ import { SignupComponent } from './signup/signup.component' ;
     AboutComponent,
     ContactComponent,
     FormComponent,
-    SignupComponent
+    SignupComponent,
+    HomeComponent
    ],
   bootstrap:    [ AppComponent ]
 })

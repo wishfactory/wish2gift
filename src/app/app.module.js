@@ -15,6 +15,7 @@ var about_component_1 = require("./about/about.component");
 var contact_component_1 = require("./contact/contact.component");
 var form_component_1 = require("./form/form.component");
 var signup_component_1 = require("./signup/signup.component");
+var home_component_1 = require("./home/home.component");
 var AppModule = (function () {
     function AppModule() {
     }
@@ -33,7 +34,8 @@ AppModule = __decorate([
             about_component_1.AboutComponent,
             contact_component_1.ContactComponent,
             form_component_1.FormComponent,
-            signup_component_1.SignupComponent
+            signup_component_1.SignupComponent,
+            home_component_1.HomeComponent
         ],
         bootstrap: [app_component_1.AppComponent]
     })

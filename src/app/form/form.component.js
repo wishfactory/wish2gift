@@ -6,15 +6,45 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 var core_1 = require("@angular/core");
+var DEFAULT_TAGS = ['#Sports', '#Adventure', '#Toys', '#Handicraft', '#Electronics'];
 var FormComponent = (function () {
     function FormComponent() {
+        this.title = 'Wish2Gift';
+        this.maritalStatus = ['Single', 'Married'];
+        this.workingStatus = ['Student', 'Professional', 'Government'];
+        this.gender = ['Male', 'Female'];
+        this.defaultTags = ['#Sports', '#Adventure', '#Toys', '#Handicraft', '#Electronics'];
+        this.descTags = [];
     }
+    FormComponent.prototype.onDefaultSelect = function (tag) {
+        this.descTags.push(tag);
+        var index = this.defaultTags.indexOf(tag);
+        if (index !== -1) {
+            this.defaultTags.splice(index, 1);
+        }
+    };
+    FormComponent.prototype.onKey = function (event) {
+        if (event.key === ' ') {
+            this.descTags.push(event.target.value);
+            event.target.value = '';
+        }
+    };
+    FormComponent.prototype.onDescSelect = function (tag) {
+        if (DEFAULT_TAGS.indexOf(tag) !== -1) {
+            this.defaultTags.push(tag);
+        }
+        var index = this.descTags.indexOf(tag);
+        if (index !== -1) {
+            this.descTags.splice(index, 1);
+        }
+    };
     return FormComponent;
 }());
 FormComponent = __decorate([
     core_1.Component({
         selector: 'form-div',
-        templateUrl: './form.component.html'
+        templateUrl: './form.component.html',
+        styleUrls: ['./form.component.css']
     })
 ], FormComponent);
 exports.FormComponent = FormComponent;

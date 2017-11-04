@@ -8,5 +8,8 @@ import { Component } from '@angular/core';
 })
 
 export class NavbarComponent {
+private id: String;
+private pass: String;
+
 
 }
