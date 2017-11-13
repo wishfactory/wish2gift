@@ -1,0 +1,13 @@
+.w3-tangerine {
+    font-family: "Tangerine", serif;
+    color: #f05f40;
+    font-weight: bold;
+    font-size: 5em;
+}
+
+#signupform{
+    border-style:solid;
+    border-color:#f05f40;
+    padding:  30px 30px 30px 30px;
+    
+}

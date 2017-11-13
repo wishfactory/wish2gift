@@ -8,13 +8,15 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var core_1 = require("@angular/core");
 var SignupComponent = (function () {
     function SignupComponent() {
+        this.gender = ['Male', 'Female'];
     }
     return SignupComponent;
 }());
 SignupComponent = __decorate([
     core_1.Component({
         selector: 'signup-div',
-        templateUrl: './signup.component.html'
+        templateUrl: './signup.component.html',
+        styleUrls: ['./signup.component.css']
     })
 ], SignupComponent);
 exports.SignupComponent = SignupComponent;
