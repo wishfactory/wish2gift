@@ -24,9 +24,15 @@ var FormComponent = (function () {
         }
     };
     FormComponent.prototype.onKey = function (event) {
-        if (event.key === ' ') {
-            this.descTags.push(event.target.value);
-            event.target.value = '';
+        if (event.keyCode === (13) || event.keyCode === (32)) {
+            if (event.target.value[0] === '#') {
+                this.descTags.push(event.target.value);
+                event.target.value = '';
+            }
+            else {
+                this.descTags.push('#' + event.target.value);
+                event.target.value = '';
+            }
         }
     };
     FormComponent.prototype.onDescSelect = function (tag) {

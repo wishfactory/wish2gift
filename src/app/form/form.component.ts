@@ -27,9 +27,14 @@ export class FormComponent {
         }
     }
     onKey(event: any) {
-        if (event.key === ' ') {
+        if (event.keyCode === (13) || event.keyCode === (32) ){
+            if(event.target.value[0]==='#'){
             this.descTags.push(event.target.value);
             event.target.value = '';
+            }else{
+                this.descTags.push('#'+event.target.value);
+                event.target.value = '';
+            }
         }
     }
     onDescSelect(tag: string) {
